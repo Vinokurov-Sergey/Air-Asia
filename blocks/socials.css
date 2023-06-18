@@ -1,0 +1,138 @@
+.socials {
+    font-size: 0;
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.socials__link {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.telegram-link:before {
+    content: url(../img/telegram.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.telegram-link:after {
+    content: url(../img/t_h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.telegram-link:hover::before {
+    opacity: 0;
+}
+.telegram-link:hover::after {
+    opacity: 1;
+}
+
+.vk-link:before {
+    content: url(../img/vk.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.vk-link:after {
+    content: url(../img/vk_h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.vk-link:hover::before {
+    opacity: 0;
+}
+.vk-link:hover::after {
+    opacity: 1;
+}
+
+.fb-link:before {
+    content: url(../img/f.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.fb-link:after {
+    content: url(../img/f2_h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.fb-link:hover::before {
+    opacity: 0;
+}
+.fb-link:hover::after {
+    opacity: 1;
+}
+
+.insta-link:before {
+    content: url(../img/in.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.insta-link:after {
+    content: url(../img/in_h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.insta-link:hover::before {
+    opacity: 0;
+}
+.insta-link:hover::after {
+    opacity: 1;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}

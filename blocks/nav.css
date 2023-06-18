@@ -1,0 +1,15 @@
+.nav {
+    font-size: 14px;
+    /* border: 1px solid;
+    border-color: #fff; */
+    
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #DA0100;
+}

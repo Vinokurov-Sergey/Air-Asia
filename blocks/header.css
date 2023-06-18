@@ -1,0 +1,23 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    /* padding-top: 38px; */
+    /* services */
+    padding-top: 30px;
+    
+}
+
+.header__col {
+    display:flex;
+    align-items: center;
+}
+
+.header__col--right {
+    justify-content: flex-end;
+}
+
+.header__phone {
+    margin-bottom: -8px;
+}

@@ -1,0 +1,19 @@
+.section {
+    margin-bottom: 124px;
+
+}
+
+.section__title {
+    margin-bottom: 50px;
+}
+
+.section__title-text {
+    font-size: 36px;
+    font-weight: bold;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+
+.section__title-pic {
+    vertical-align: middle;
+}

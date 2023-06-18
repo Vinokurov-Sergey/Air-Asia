@@ -1,0 +1,10 @@
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__title {
+    font-size: 13px;
+    text-decoration: underline;
+
+}
