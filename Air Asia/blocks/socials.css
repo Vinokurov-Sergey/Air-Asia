@@ -1,0 +1,154 @@
+.socials {
+    font-size: 0;
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.socials__link {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.telegram-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -97px -5px;
+}
+
+.telegram-link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -97px -51px;
+}
+
+.telegram-link:hover::before {
+    opacity: 0;
+}
+.telegram-link:hover::after {
+    opacity: 1;
+}
+
+.vk-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -97px;
+}
+
+.vk-link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -97px;
+}
+
+.vk-link:hover::before {
+    opacity: 0;
+}
+.vk-link:hover::after {
+    opacity: 1;
+}
+
+.fb-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -5px;
+}
+
+.fb-link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -5px;
+}
+
+.fb-link:hover::before {
+    opacity: 0;
+}
+.fb-link:hover::after {
+    opacity: 1;
+}
+
+.insta-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -51px;
+}
+
+.insta-link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -51px;
+}
+
+.insta-link:hover::before {
+    opacity: 0;
+}
+.insta-link:hover::after {
+    opacity: 1;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}

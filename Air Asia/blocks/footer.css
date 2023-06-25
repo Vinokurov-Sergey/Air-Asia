@@ -1,0 +1,44 @@
+.footer {
+    position: relative;
+    margin-bottom: 57px;
+}
+
+.footer__container {
+    display: flex;
+    height: 92px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-right {
+    display: flex;
+    justify-content:space-between;
+    width: 38%;
+}
+
+.footer__container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.1;
+}
+
+.footer__contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.footer__contacts-title {
+    font-size: 11px;
+    color: #9A9A9A;
+}

@@ -1,0 +1,31 @@
+.hello-container {
+    margin: 0 auto;
+    width: 591px;
+    height: 255px;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    animation: hello_animation 1.2s ease-out;
+    
+}
+
+.shades {
+    background: url(../img/shades.png);
+    background-position: top;
+}
+
+.hello__logo {
+    text-align: center;
+    justify-content: center;
+}
+
+.hello__content {
+    font-size: 18px;
+    line-height: 24.51px;
+    margin-bottom: 49px;
+}
