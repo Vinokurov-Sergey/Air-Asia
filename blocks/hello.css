@@ -10,7 +10,8 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 60px;
-    animation: hello_animation 1.2s ease-out;
+    opacity: 0;
+    animation: hello_animation 1.2s ease-out 2s forwards;
     
 }
 
