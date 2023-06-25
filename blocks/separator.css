@@ -1,0 +1,25 @@
+.separator {
+    background: url(../img/Rectangle.png);
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+
+.separator__content {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 97%;
+    row-gap: 10px;
+    
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 65px;
+    max-width: 595px;
+    letter-spacing: 2px;
+}

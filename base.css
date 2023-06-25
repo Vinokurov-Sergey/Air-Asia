@@ -46,6 +46,14 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 1200px;
 }
 
+.wrapper-hello {
+    background: url(./img/bg.png) no-repeat;
+    background-position: center;
+    /* max-height: 960px;
+    max-width: 1920px; */
+    justify-content: center;
+}
+
 .wrapper__main {
     background: url('./img/1.png'), url('./img/2.png');
     background-repeat: no-repeat, no-repeat;

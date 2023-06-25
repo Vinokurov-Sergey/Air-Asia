@@ -1,3 +1,10 @@
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .btn {
     background: #F5170E;
     border-radius: 35px;
@@ -8,4 +15,35 @@
     text-decoration: none;
     font-size: 14px;
     width: 168px;
+    transition: .3s;
+}
+
+.btn-enter {
+    padding: 17px 60px;
+}
+
+.btn-enter:hover {
+    background: #DA0100;
+    transition: .5s;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-black {
+    background: #2B2B2B;
+}
+
+.btn-black:hover {
+    background: #8E8E8E;
+}
+
+.form__btn {
+    margin-right: 17px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
 }

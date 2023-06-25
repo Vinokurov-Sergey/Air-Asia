@@ -21,12 +21,13 @@
 @import url(./blocks/inner-section.css);
 @import url(./blocks/partners.css);
 @import url(./blocks/page.css);
-
-
-
-
-
-
+@import url(./blocks/hello.css);
+@import url(./blocks/animation.css);
+@import url(./blocks/dropdown.css);
+@import url(./blocks/review.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/form.css);
+@import url(./blocks/controls.css);
 
 
 

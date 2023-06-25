@@ -18,17 +18,19 @@
 }
 
 .telegram-link:before {
-    content: url(../img/telegram.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -97px -5px;
 }
 
 .telegram-link:after {
-    content: url(../img/t_h.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -36,6 +38,8 @@
     left: 0;
     opacity: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -97px -51px;
 }
 
 .telegram-link:hover::before {
@@ -46,17 +50,19 @@
 }
 
 .vk-link:before {
-    content: url(../img/vk.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -97px;
 }
 
 .vk-link:after {
-    content: url(../img/vk_h.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -64,6 +70,8 @@
     left: 0;
     opacity: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -97px;
 }
 
 .vk-link:hover::before {
@@ -74,17 +82,19 @@
 }
 
 .fb-link:before {
-    content: url(../img/f.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -5px;
 }
 
 .fb-link:after {
-    content: url(../img/f2_h.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -92,6 +102,8 @@
     left: 0;
     opacity: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -5px;
 }
 
 .fb-link:hover::before {
@@ -102,17 +114,19 @@
 }
 
 .insta-link:before {
-    content: url(../img/in.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -5px -51px;
 }
 
 .insta-link:after {
-    content: url(../img/in_h.png);
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -120,6 +134,8 @@
     left: 0;
     opacity: 0;
     transition: .3s;
+    background: url(../img/spritesheet.png);
+    background-position: -51px -51px;
 }
 
 .insta-link:hover::before {

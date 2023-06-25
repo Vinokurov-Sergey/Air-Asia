@@ -1,0 +1,65 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background: #EDEDED;
+    border-radius: 9px;
+    width: 160px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -999px;
+    opacity: 0%;
+    transition: opacity .5s;
+    margin-top: 8px;
+}
+
+.dropdown:hover .dropdown__menu {
+    right: 0px;
+    opacity: 80%;
+}
+
+.dropdown__menu::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 60%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #EDEDED transparent;
+
+}
+
+.dropdown__menu::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 26px;
+    left: 30%;
+    right: 0;
+    top: -26px;
+}
+
+.dropdown__menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.dropdown__munu-workhours {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #1E1F20;
+}
+
+.dropdown__munu-lunch {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 600px;
+    color: #1E1F20;
+}

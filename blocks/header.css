@@ -15,6 +15,7 @@
 }
 
 .header__col--right {
+    /* display: flex; */
     justify-content: flex-end;
 }
 

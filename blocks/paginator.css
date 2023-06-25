@@ -51,9 +51,11 @@
 .paginator__link:hover {
     background: #fff;
     color: #F5170E;
+    transition: .3s;
 }
 
 .paginator--theme--red .paginator__link:hover {
     background: #F5170E;
     color: #FFFFFF;
+    transition: .3s;
 }
